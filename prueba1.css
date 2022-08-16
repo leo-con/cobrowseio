@@ -1,0 +1,22 @@
+#boton_finalizar{
+    padding : 10px 13px;
+    font-family : "sans-serif";
+    font-size : 13px;
+  color : white;
+  box-shadow : 0px 2px 5px #33333344;
+  cursor : pointer;
+  border-radius : 30px;
+  background : blue;
+  position : fixed;
+  z-index : 2147483647;
+  bottom : 20px;
+  left : 50%;
+  transform : translateX(-50%);
+}
+
+
+.div1 {
+  width: 40%;
+  margin: 10px;
+}
+

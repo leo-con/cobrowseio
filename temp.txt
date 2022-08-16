@@ -1,0 +1,6 @@
+CobrowseIO.license = "Ff15cMkwxJyCcg"; //leonel.contreras@genesys.com
+//CobrowseIO.license = "hN3jxzqAuYIKrA"; // DemoLatam
+
+//CobrowseIO.license = "7ErhBp3Bdfvonw"; // Davivienda
+
+//CobrowseIO.license = "LXHFOIPp2LO6Ww";  Bancolombia
