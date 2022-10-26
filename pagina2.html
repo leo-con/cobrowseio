@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+    (function(w,t,c,p,s,e){p=new Promise(function(r){w[c]={client:function(){if(!s){
+    s=document.createElement(t);s.src='https://js.cobrowse.io/CobrowseIO.js';s.async=1;
+    e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);s.onload=function()
+    {r(w[c]);};}return p;}};});})(window,'script','CobrowseIO');
+
+    CobrowseIO.license = "Ff15cMkwxJyCcg";    
+    CobrowseIO.client().then(function(){
+        CobrowseIO.start();
+    });
+</script>    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,43 +53,7 @@ header, footer, article, nav, aside {
 }
 </style>
 <body>
-    <script>
-        (function (w, t, c, p, s, e) {
-          p = new Promise(function (r) {
-            w[c] = {
-              client: function () {
-                if (!s) {
-                  s = document.createElement(t);
-                  s.src = "https://js.cobrowse.io/CobrowseIO.js";
-                  s.async = 1;
-                  e = document.getElementsByTagName(t)[0];
-                  e.parentNode.insertBefore(s, e);
-                  s.onload = function () {
-                    r(w[c]);
-                  };
-                }
-                return p;
-              },
-            };
-          });
-        })(window, "script", "CobrowseIO");       
-        CobrowseIO.license = "Ff15cMkwxJyCcg";
-        CobrowseIO.client().then(function () {
-          CobrowseIO.on("session.loaded", (session) => {
-            console.log("A session was loaded", session);
-          });
-
-          //CobrowseIO.on('session.updated', session => {
-          //    console.log('A session was updated', session)
-          //})
-
-          CobrowseIO.on("session.ended", (session) => {
-            console.log("A session was ended", session);
-          });
-
-          CobrowseIO.start();
-    </script>
-    
+   
   <header>Header</header>
   <div id="main">
     <article>Article</article>
