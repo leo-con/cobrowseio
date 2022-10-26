@@ -26,7 +26,7 @@ CobrowseIO.customData = {
   device_name: "PaginaWeb2",
   CustomAttrute: "ValorZ",
 };
-CobrowseIO.license = "";
+CobrowseIO.license = "Ff15cMkwxJyCcg";
 
 CobrowseIO.client().then(function () {
   CobrowseIO.on("session.loaded", (session) => {
